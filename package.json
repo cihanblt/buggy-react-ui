@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://cihanblt.github.io/buggy-react-ui/",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack --config=webpack.config.js",
+    "deploy" :"gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -29,6 +32,7 @@
     "eslint-loader": "^2.0.0",
     "eslint-plugin-react": "^7.7.0",
     "file-loader": "^1.1.11",
+    "gh-pages": "^1.1.0",
     "react-hot-loader": "^4.1.1",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
