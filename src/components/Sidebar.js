@@ -9,7 +9,7 @@ class Sidebar extends Component {
                                 <li className="nav-item">
                                     <a data-toggle="collapse" className="nav-link active" href="#collapse1">
                                         <span data-feather="home"></span>
-                                        Buttons <span className="sr-only">(current)</span>
+                                        Button <span className="sr-only">(current)</span>
                                     </a>
                                     <div id="collapse1" className="panel-collapse collapse">
                                         <ul className="list-group">
@@ -22,7 +22,55 @@ class Sidebar extends Component {
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">
                                         <span data-feather="file"></span>
-                                        Inputs
+                                        Input
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">
+                                        <span data-feather="file"></span>
+                                        Data
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">
+                                        <span data-feather="file"></span>
+                                        Modal
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">
+                                        <span data-feather="file"></span>
+                                        Menu
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">
+                                        <span data-feather="file"></span>
+                                        Overlay
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">
+                                        <span data-feather="file"></span>
+                                        Calendar And Date
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">
+                                        <span data-feather="file"></span>
+                                        Messages
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">
+                                        <span data-feather="file"></span>
+                                        File Operations
+                                    </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">
+                                        <span data-feather="file"></span>
+                                        Misc
                                     </a>
                                 </li>
                             </ul>
